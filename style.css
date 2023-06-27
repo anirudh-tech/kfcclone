@@ -1,0 +1,488 @@
+body{
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+   overflow-x: hidden;
+
+}
+.main-fixed{
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    background: white;
+}
+.first-header{
+    width: 100%;
+    margin-left: 34%;
+    padding-top: 10px;
+}
+.fa.fa-map-marker-alt{
+    float: left;
+    color: red;
+    padding-top: 8px;
+    font-size: small;
+}
+.text{
+margin-left: 10px;
+font-size:small;
+font-weight:bold;
+font-stretch: expanded;
+}
+.button{
+    height: 32px;
+    font-size: 12px;
+    border-radius: 20px;
+    width: 99px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin-left: 23px;
+    color: #fff;
+    background-color: #202124;
+    cursor: pointer;
+}
+.line{
+    border-top: 1px solid rgba(255, 255, 255, 0.097);
+}
+.second-header{
+    width: 100%;
+    margin-left: 9%;
+    padding-top: 30px;
+}
+.left-side-header{
+    width: 70%;
+    float: left;
+}
+.kfclogo{
+    float: left;
+    cursor: pointer;
+}
+.menu{
+    color: black;
+    margin-left: 40px;
+    font-size: small;
+    font-weight:bold;
+    text-decoration: none;
+}
+.deals{
+    color: black;
+    margin-left: 40px;
+    font-size: small;
+    font-weight: bold;
+    text-decoration: none;
+}
+.rightside-header{
+    width: 20%;
+    float: left;
+}
+.accounticon{
+    float: left;
+    cursor: pointer;
+}
+.signin{
+    color: black;
+margin-left: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: medium;
+float: left;
+text-decoration: none;
+
+}
+.vr{
+    margin-top: -5px;
+border-left: 1px solid black;
+height: 30px;
+margin-left: 20px;
+float: left;
+
+}
+.fa.fa-inr{
+padding-top: 5px;
+margin-left: 20px;
+cursor: pointer;
+font-size: x-small;
+float: left;
+}
+.bucket-icon{
+    width: 5%;
+    height: 60px;
+    margin-top: -22px;
+    float: left;
+    cursor: pointer;
+}
+.main-moving{
+    width: 100%;
+    padding-top: 150px;
+
+}
+.inner-header{
+    width: 100%;
+background: black;
+height: 70px;
+}
+.inner-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+    color: #fff;
+    float: left;
+    margin-left: 34%;
+    padding-top: 25px;
+}
+.red-button{
+    background: #e4002b;
+    color: #fff;
+    width: 165px;
+    height: 46px;
+    margin-left: 10px;
+    margin-top: 11px;
+    border-radius: 60px;
+    font-size: small;
+    cursor: pointer;
+
+}
+.red-button:hover{
+filter: brightness(70%);
+}
+.second-inner{
+    width: 100%;
+    height: 160px;
+    background: #f8f7f5;
+}
+.vl{
+    
+}
+.vl1{
+    float: left;
+    margin-left: 200px;
+    width: 9px;
+    height: 20px;
+    background: red;
+}
+.vl2{
+    float: left;
+    width: 9px;
+    height: 20px;
+    background: #fff;
+}
+.vl3{
+    float: left;
+    width: 9px;
+    height: 20px;
+    background: red;
+}
+.vl4{
+    float: left;
+    width: 9px;
+    height: 20px;
+    background: #fff;
+}
+.vl5{
+    float: left;
+    width: 9px;
+    height: 20px;
+    background: red;
+}
+.welcome{
+padding-top: 20px;
+margin-left: 13%;
+}
+.second-text{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 42px;
+}
+.categories{
+    width: 100%;
+    height: 500px;
+    
+}
+.text-categories{
+width: 100%;
+}
+.cat-text{
+    font-family: 'Bebas Neue', sans-serif;
+    float: left;
+    margin-left: 270px;
+    font-size: 35px;
+    margin-top: 100px;
+
+}
+.sec-line{
+    width: 62%;
+    float: left;
+    margin-left: 30px;
+    padding-top: 111px;
+    border-top: black;
+    border-left: black;
+    border-right: black;
+}
+.cat-pictures{
+    width: 100%;
+    background: #fff;
+    height: 266px;
+    display: flex;
+    padding-left: 240px;
+}
+.gallery{
+    margin: 27px;
+    border: 1px solid white;
+    flex-direction: column;
+}
+.image{
+    width: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.desc{
+    
+    margin-top: -7px;
+    text-align: center;
+    padding: 20px;
+    background: #f8f7f5;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+}
+.cat-pictures2{
+    width: 100%;
+    background: #fff;
+    height: 266px;
+    display: flex;
+    padding-left: 240px;
+}
+.desc2{
+    margin-top: -7px;
+    text-align: center;
+    padding: 20px;
+    background: #f8f7f5;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+}
+
+.image2{
+    width: 256px;
+    height: 176px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.gallery2{
+    margin: 27px;
+    border: 1px solid white;
+    flex-direction: row;
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size:large;
+    font-weight: bold;
+}
+.links2{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+.footer{
+    margin-top: 300px;
+    width: 100%;
+}
+.first-footer{
+    display: flex;
+    flex-direction: column;
+    background: black;
+    height: 167px;
+}
+.vr{
+margin-top: 0px;
+}
+.vr1{
+    float: left;
+    margin-left: 200px;
+    width: 13px;
+    height: 35px;
+    background: red;
+}
+.vr2{
+    float: left;
+    margin-left: 13px;
+    width: 13px;
+    height: 35px;
+    background: red;
+}
+.vr3{
+    float: left;
+    margin-left: 13px;
+    width: 13px;
+    height: 35px;
+    background: red;
+}
+.first-footer-text{
+    margin-top: 70px;
+}
+.second-last-text{
+    color: #fff;
+   font-family:  'Bebas Neue', sans-serif;
+   font-size: 40px;
+   padding-left: 216px;
+
+}
+.deals-link{
+    text-decoration: none;
+    font-size: small;
+}
+.view-deals{
+    margin-left: 800px;
+    color: #fff;
+    cursor: pointer;
+}
+.gallery i{
+    color: #000000;
+}
+.footer-image{
+    margin-top: 43px;
+    margin-left: 239px;
+}
+.first-footer-text i{
+    color: #fff;
+}
+.second-footer{
+    width: 100%;
+    padding-left: 215px;
+    background: black;
+    margin-top: -30px;
+    padding-top: 30px;
+   
+}
+.gallery3{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+
+}
+.last-image{
+padding: 9px;
+}
+.image3{
+    width: 340px;
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+
+}
+.desc3 h1{
+    color: #e4002b;
+    margin-bottom: 0px;
+    font-family:'Yantramanav', sans-serif;
+    font-size: 34px;
+}
+.desc3 p{
+    font-size:15px;
+    margin: 0px;
+}
+.desc3{
+    margin-top: -29px;
+    text-align: center;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    background: #cba049;
+    height: 180px;
+    padding-top: 0px;
+}
+.details-link{
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 35px;
+}
+.details-link a{
+
+    color: #000000;
+}
+.details-link button{
+    margin-left: 60px;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.details-link button:hover{
+    background: black;
+    color: #fff;
+}
+.third-footer{
+    width: 100%;
+    height: 132px;
+    padding: 132px;
+    display: inline-flex;
+    padding-left: 20px;
+    background: black;
+    margin-top: -30px;
+    
+}
+.first-row{
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+line-height: 24px;
+font-size: 15px;
+color: #fff;
+font-family: 'National 2'regular;
+padding-top: 30px;
+}
+.rows{
+    display: inline-flex;
+    gap: 20px;
+}
+.first-row img{
+width: 60px;
+}
+.first-row a{
+    line-height: 24px;
+}
+.logo3 img{
+}
+.unordered-list{
+    font-size: small;
+    list-style: none;
+    cursor: pointer;
+}
+.find-kfc a{
+    margin-left: 8px;
+    color: #fff;
+    font-size: small;
+    cursor: pointer;
+
+}
+.google-icon img{
+    width: 110px;
+    cursor: pointer;
+}
+.appstore-icon img{
+    margin-left: -110px;
+    width: 110px;
+    cursor: pointer;
+}
+.last-footer{
+    text-align: end;
+    background: black;
+    margin-top: -30px;
+    padding-right: 191px;
+    height: 50px;
+}
+.last-footer h5{
+    text-align: center;
+    color: white;
+}
+.fa.fa-copyright{
+    color: black;
+    background: white;
+}
+.last-buttons button{
+   margin-top: -10px;
+   border-radius: 12px;
+   padding-top: 4px;
+   color: white;
+   background: black;
+   border-color: white;
+   margin-right: 4px;
+}
+.last-buttons{
+    margin-top: -43px;
+    margin-right: -28px;
+    cursor: pointer;
+}
