@@ -53,6 +53,9 @@ font-stretch: expanded;
     width: 70%;
     float: left;
 }
+.left-side-header a{
+    font-weight: 600;
+}
 .kfclogo{
     float: left;
     cursor: pointer;
@@ -61,7 +64,6 @@ font-stretch: expanded;
     color: black;
     margin-left: 40px;
     font-size: small;
-    font-weight:bold;
     text-decoration: none;
 }
 .deals{
@@ -117,7 +119,7 @@ float: left;
 }
 .inner-header{
     width: 100%;
-background: black;
+background: #202124;
 height: 70px;
 }
 .inner-text{
@@ -126,6 +128,7 @@ height: 70px;
     float: left;
     margin-left: 34%;
     padding-top: 25px;
+    word-spacing: -2px;
 }
 .red-button{
     background: #e4002b;
@@ -141,6 +144,7 @@ height: 70px;
 }
 .red-button:hover{
 filter: brightness(70%);
+transition: 0.3s;
 }
 .second-inner{
     width: 100%;
@@ -188,6 +192,7 @@ margin-left: 13%;
 .second-text{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 42px;
+    letter-spacing: 1px;
 }
 .categories{
     width: 100%;
@@ -286,7 +291,7 @@ width: 100%;
 .first-footer{
     display: flex;
     flex-direction: column;
-    background: black;
+    background: #202124;
     height: 167px;
 }
 .vr{
@@ -345,7 +350,7 @@ margin-top: 0px;
 .second-footer{
     width: 100%;
     padding-left: 215px;
-    background: black;
+    background: #202124;
     margin-top: -30px;
     padding-top: 30px;
    
@@ -380,7 +385,7 @@ padding: 9px;
     text-align: center;
     border-bottom-left-radius:10px ;
     border-bottom-right-radius:10px ;
-    background: #cba049;
+    background: #fff;
     height: 180px;
     padding-top: 0px;
 }
@@ -399,6 +404,7 @@ padding: 9px;
     height: 40px;
     border-radius: 20px;
     cursor: pointer;
+    background-color: white;
 }
 .details-link button:hover{
     background: black;
@@ -410,7 +416,7 @@ padding: 9px;
     padding: 132px;
     display: inline-flex;
     padding-left: 20px;
-    background: black;
+    background: #202124;
     margin-top: -30px;
     
 }
@@ -426,7 +432,8 @@ padding-top: 30px;
 }
 .rows{
     display: inline-flex;
-    gap: 20px;
+    gap: 40px;
+    margin-top: -20px;
 }
 .first-row img{
 width: 60px;
@@ -439,7 +446,20 @@ width: 60px;
 .unordered-list{
     font-size: small;
     list-style: none;
+}
+.li a{
+    margin-left: -40px;
+    font-size: small;
     cursor: pointer;
+    color: white;
+    filter: brightness(60%);
+    text-decoration: none;
+}
+.li a:hover{
+    filter: brightness(100%);
+}
+.li{
+    list-style: none;
 }
 .find-kfc a{
     margin-left: 8px;
@@ -459,11 +479,12 @@ width: 60px;
 }
 .last-footer{
     text-align: end;
-    background: black;
+    background: #202124;
     margin-top: -30px;
     padding-right: 191px;
     height: 50px;
 }
+
 .last-footer h5{
     text-align: center;
     color: white;
