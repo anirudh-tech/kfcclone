@@ -395,8 +395,12 @@ padding: 9px;
     margin-left: 35px;
 }
 .details-link a{
-
-    color: #000000;
+    font-size: small;
+    color: #0000008f;
+}
+.details-link a:hover{
+    border: none;
+    background-color: rgba(0, 0, 0, 0.203);
 }
 .details-link button{
     margin-left: 60px;
@@ -501,9 +505,10 @@ width: 60px;
    background: black;
    border-color: white;
    margin-right: 4px;
+   cursor: pointer;
 }
 .last-buttons{
     margin-top: -43px;
     margin-right: -28px;
-    cursor: pointer;
+   
 }
